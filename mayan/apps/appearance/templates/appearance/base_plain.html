@@ -12,6 +12,46 @@
         <meta content="width=device-width, initial-scale=1, maximum-scale=5" name="viewport">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Language" content="{{ LANGUAGE_CODE }}" />
+        
+        <!-- SEO Meta -->
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="author" content="multiple">
+        <meta name="keywords" content="maksym,max,kornyev,web,development,javscript,html,css,information,systems,carnegie,mellon,cmu,rails,mayan, edms">
+
+        <meta name="description" content="Mayan EDMS. The premiere document management system for those who hate docker. Plus a bunch of filler text to help with SEO.!!!!">
+        <meta itemprop="description" content="Mayan EDMS. The premiere document management system for those who hate docker. Plus a bunch of filler text to help with SEO.!!!!">
+        <meta property="og:description" content="Mayan EDMS. The premiere document management system for those who hate docker. Plus a bunch of filler text to help with SEO.!!!!"/>
+        
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="Mayan EDMS">
+        <!-- <meta itemprop="image" content="/static/mkv2/logo.png"> -->
+
+        <!-- Twitter Card data -->
+        <!-- <meta name="twitter:card" content="product">
+        <meta name="twitter:site" content="@publisher_handle">
+        <meta name="twitter:title" content="Page Title">
+        <meta name="twitter:description" content="Page description less than 200 characters">
+        <meta name="twitter:creator" content="@author_handle">
+        Twitter summary card with large image must be at least 280x150px
+        <meta name="twitter:image:src" content="http://www.example.com/image.jpg">
+        <meta name="twitter:image" content="http://www.example.com/image.jpg">
+        <meta name="twitter:data1" content="$3">
+        <meta name="twitter:label1" content="Price">
+        <meta name="twitter:data2" content="Black">
+        <meta name="twitter:label2" content="Color"> -->
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="Mayan EDMS" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://0.0.0.0/" />
+        <!-- <meta property="og:image" content="/static/mkv2/logo.png" /> -->
+        <meta property="og:site_name" content="Matan EDMS" />
+        <meta property="article:published_time" content="2020-05-01T00:00:00+01:00" />
+        <meta property="article:modified_time" content="2020-06-10T00:00:00+01:00" />
+        <!-- SEO Meta End -->
+
         <title>
             {% block base_title %}
                 {% block title %}{% endblock %} :: {% block project_name %}    {% smart_setting 'COMMON_PROJECT_TITLE' as setting_project_title %}{% endblock %}
