@@ -1,3 +1,18 @@
+3.4.17 (2020-09-10)
+===================
+- Improve and optimize the process_messages script.
+- Add helper script that checks all apps have a corresponding
+  Transifex resource entry.
+- Update Transifex configuration file. Add missing apps, rename
+  statistics to mayan_statistics to match app name, fix typo
+  in web link app resource name. Thanks to forum user @qra
+  (https://forum.mayan-edms.com/viewtopic.php?t=3009) for the
+  report.
+- Feature complete document indexing API. Forum topics 3010 and 3011.
+  Thanks to forum user @qra for the reports and requests.
+- Add documentation note about breaking changes in django-storages version
+  1.10 regarding ``default_acl``.
+
 3.4.16 (2020-08-30)
 ===================
 - Merge request !36 "Properly close storage file when CachePartion.create_file
